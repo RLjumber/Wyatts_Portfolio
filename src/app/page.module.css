@@ -1,43 +1,49 @@
-.main {
+.landing {
   display: flex;
   /* flex-direction: column; */
   justify-content: space-between;
   align-items: center;
-  padding: 4rem;
+  padding: 1rem;
+
   min-height: 100vh;
   /* border: solid red 1px; */
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgb(0, 76, 255);
+  background-color: white;
+}
+
+@font-face {
+  font-family: 'Bruno Ace SC';
+  src: url('../../public/BrunoAceSC-Regular.ttf') format('truetype');
 }
 
 .wyatt_and_links {
+  font-family: Bruno Ace SC;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   /* border: solid blue 5px; */
+  padding-left: 1rem;
   width: 60vw;
   height: 50vh;
 }
 
-
-.name {
-  display: inherit;
-  justify-content: space-between;
-  align-items: center;
-  max-width: var(--max-width);
-  z-index: 2;
-  font-family: var(--font-mono);
-  /* border: solid red 1px; */
-}
-
-.name h2 {
-  font-size: 60px;
+.center video {
+  max-width: 100%;
+  height: auto;
+  padding: 1rem;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(25%, auto));
+  grid-template-columns: repeat(3, minmax(30%, auto));
   width: var(--max-width);
-  max-width: 60%;
+  max-width: 70%;
   /* border: solid red 1px; */
+}
+
+.name {
+  font-size: 40px;
 }
 
 .card {
@@ -48,9 +54,12 @@
   transition: background 200ms, border 200ms;
   /* aborder: solid blue 1px; */
   margin: 1rem;
-  
-  
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.2s ease-out;
+  border-radius: 5px;
 }
+
 
 .card span {
   display: inline-block;
@@ -77,42 +86,25 @@
   align-items: center;
   position: relative;
   padding: 5rem;
-  margin: 10rem;
+  /* margin: 10rem; */
   /* border: solid yellow 1px; */
 }
 
-.center::before {
-  background: var(--secondary-glow);
-  border-radius: 50%;
-  width: 480px;
-  height: 360px;
-  margin-left: -400px;
+.logo_animation {
+  outline: none;
+  border: none;
+  width: 840px;
+  height: 540px;
+  /* border: solid red 1px; */
 }
 
-.center::after {
-  background: var(--primary-glow);
-  width: 240px;
-  height: 180px;
-  z-index: -1;
-}
-
-.center::before,
-.center::after {
-  content: '';
-  left: 50%;
-  position: absolute;
-  filter: blur(45px);
-  transform: translateZ(0);
-}
-
-.logo {
-  position: relative;
-}
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
     background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    background-color: rgb(255, 147, 147);
+    
   }
 
   .card:hover span {
@@ -128,8 +120,10 @@
 
 /* Mobile */
 @media (max-width: 700px) {
-  .content {
-    padding: 4rem;
+  .main {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
   }
 
   .grid {
@@ -149,11 +143,6 @@
 
   .center {
     padding: 8rem 0 6rem;
-  }
-
-  .center::before {
-    transform: none;
-    height: 300px;
   }
 
   .name {
