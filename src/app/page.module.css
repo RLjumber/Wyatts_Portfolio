@@ -4,20 +4,20 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  min-height: 100vh;
+  min-height: 95vh;
   /* border: solid red 1px; */
   border-radius: 5px;
-  box-shadow: 0px 0px 15px rgb(0, 76, 255);
-  background-color: white;
+  box-shadow: 0px 0px 20px rgb(59, 118, 255);
+  background-color: rgb(0, 0, 0);
 }
 
 @font-face {
-  font-family: 'Bruno Ace SC';
-  src: url('../../public/BrunoAceSC-Regular.ttf') format('truetype');
+  font-family: 'SourceSansPro-SemiBold';
+  src: url('../../public/SourceSansPro-SemiBold.ttf') format('truetype');
 }
 
 .wyatt_and_links {
-  font-family: Bruno Ace SC;
+  font-family: "SourceSansPro-SemiBold";
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -25,6 +25,8 @@
   padding-left: 1rem;
   width: 60vw;
   height: 50vh;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 15px rgba(255, 0, 0, 0.692);
 }
 
 .center video {
@@ -54,15 +56,17 @@
   /* aborder: solid blue 1px; */
   margin: 1rem;
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   transition: background-color 0.5s ease-out;
   border-radius: 5px;
+  font-family: "SourceSansPro-SemiBold";
 }
 
 
 .card span {
   display: inline-block;
   transition: transform 200ms;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .card h2 {
@@ -74,7 +78,7 @@
 .card p {
   margin: 0;
   opacity: 0.6;
-  font-size: 0.9rem;
+  font-size: 20px;
   line-height: 1.5;
   max-width: 30ch;
 }

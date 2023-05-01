@@ -1,8 +1,9 @@
 import styles from './page.module.css';
 import Link from 'next/link'
 import Type from './type/Type';
-import SecondPage from "./SecondPage";
-import ThirdPage from "./ThirdPage";
+import BladeRunner from "./BladeRunner";
+import CyberNoir from "./CyberNoir";
+import CyberCity from "./Cybercity";
 
 export default function Home() {
   return (
@@ -50,13 +51,14 @@ export default function Home() {
 
         <div className={styles.center}>
           <video className={styles.logo_animation} autoPlay muted>
-            <source src="/Comp 1.mp4" type="video/mp4" />
+            <source src="/Comp_1RGB.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
       </div>
-      <SecondPage />
-      <ThirdPage />
+      <BladeRunner />
+      <CyberNoir />
+      <CyberCity />
     </main>
   )
 }

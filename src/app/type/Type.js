@@ -7,9 +7,9 @@ export default function Type() {
   const [index, setIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [stringsToType, setStringsToType] = useState([
-    '...3D Animation',
+    '...3D Modeler',
     '...SCAD Student',
-    '...Warhammer 40k'
+    '...Multimedia Artist'
   ]);
   const [stringIndex, setStringIndex] = useState(0);
 
