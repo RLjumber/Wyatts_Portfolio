@@ -24,9 +24,9 @@
 .image {
     margin: 5rem;
     margin-top: 0;
-    width: 500px;
+    width: 600px;
     height: auto;
-    box-shadow: 0 0 100px rgba(255, 0, 0, 0.658);
+    box-shadow: 0 0 100px rgba(0, 76, 255, 0.658);
 }
 
 .title {
@@ -42,7 +42,7 @@
     font-family: "SourceSansPro-SemiBold";
     font-size: 5rem;
     color: white;
-    text-shadow: 3px 3px 15px rgba(0, 170, 255, 0.692);
+    text-shadow: 3px 3px 15px rgba(195, 0, 255, 0.692);
 }
 
 .description {

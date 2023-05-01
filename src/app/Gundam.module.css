@@ -24,9 +24,9 @@
 .image {
     margin: 5rem;
     margin-top: 0;
-    width: 500px;
+    width: 805px;
     height: auto;
-    box-shadow: 0 0 100px rgba(255, 0, 0, 0.658);
+    box-shadow: 0 0 100px rgba(0, 42, 255, 0.658);
 }
 
 .title {
