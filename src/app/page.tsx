@@ -2,6 +2,7 @@ import styles from './page.module.css';
 import Link from 'next/link'
 import Type from './type/Type';
 import SecondPage from "./SecondPage";
+import ThirdPage from "./ThirdPage";
 
 export default function Home() {
   return (
@@ -55,7 +56,7 @@ export default function Home() {
         </div>
       </div>
       <SecondPage />
-
+      <ThirdPage />
     </main>
   )
 }
