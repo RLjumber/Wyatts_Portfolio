@@ -61,10 +61,15 @@
     margin: 2rem;
     margin-top: 0;
     justify-content: space-evenly;
+    border: solid rgb(93, 0, 155) 2px;
+    border-radius: 10px;
+    padding: 1rem;
 }
 
 .list {
     padding: 5rem;
+    padding-top: 0;
+    margin-top: 0;
     list-style: none;
     font-family: "SourceSansPro-SemiBold";
     font-size: 2rem;
@@ -88,6 +93,8 @@
     padding: 1rem;
 }
 
-.list li em {
-    /* font-size: larger; */
+.logo_animation {
+    /* border: solid red 1px; */
+    width: 700px;
+    height: 100%;
 }

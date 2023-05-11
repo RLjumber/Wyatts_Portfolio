@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const title = "Hidetaka Miyazaki Inspiration"
 
-export default function SecondPage() {
+export default function Poster() {
     return (
         <div className={styles.main_div}>
           <div className={styles.text}>

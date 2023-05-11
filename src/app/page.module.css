@@ -1,15 +1,23 @@
-.landing {
+.main {
   display: flex;
-  /* flex-direction: column; */
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
   padding: 1rem;
-  min-height: 95vh;
+  min-height: fit-content;
+  /* max-height: fit-content; */
   /* border: solid red 1px; */
   border-radius: 5px;
   box-shadow: 0px 0px 20px rgb(59, 118, 255);
   background-color: rgb(0, 0, 0);
 }
+
+.landing {
+  display: inherit;
+  /* border: solid red 1px; */
+  min-height: 90vh;
+}
+
 
 @font-face {
   font-family: 'SourceSansPro-SemiBold';
@@ -24,7 +32,7 @@
   /* border: solid blue 5px; */
   padding-left: 1rem;
   width: 60vw;
-  height: 50vh;
+  min-height: 50vh;
   color: rgb(255, 255, 255);
   text-shadow: 3px 3px 15px rgba(255, 0, 0, 0.692);
 }
