@@ -1,11 +1,11 @@
-import BladeRunner from "../BladeRunner";
-import Draw1 from "../Draw1";
-import Poster from "../Poster";
-import Gundam from "../Gundam";
-import SwordLord from "../SwordLord";
-import DualAngel from "../DualAngel";
-import CyberNoir from "../CyberNoir";
-import CyberCity from "../Cybercity";
+import BladeRunner from "../bladerunner/page";
+import Draw1 from "../cyberstreetcorner/page";
+import Poster from "../poster/page";
+import Gundam from "../gundam/page";
+import SwordLord from "../swordlord/page";
+import DualAngel from "../dualangel/page";
+import CyberNoir from "../cybernoir/page";
+import CyberCity from "../cybercity/page";
 import PortfolioLanding from "./PortfolioLanding";
 
 

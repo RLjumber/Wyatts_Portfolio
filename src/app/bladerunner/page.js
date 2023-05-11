@@ -1,6 +1,6 @@
 import styles from "./Bladerunner.module.css"
 
-export default function BladeRunner() {
+export default function BladeRunnerVideo() {
     return (
         <div className={styles.main_div}>
             <h1 className={styles.title}>BladeRunner 2049 Animation</h1>

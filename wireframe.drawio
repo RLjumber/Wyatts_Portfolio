@@ -1,29 +1,131 @@
 <mxfile host="65bd71144e">
     <diagram id="oq78uFxKCD4oV5kVmXLP" name="Page-1">
-        <mxGraphModel dx="553" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1180" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="80" y="40" width="640" height="360" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;LOGO&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillColor=#990000;fillStyle=dots;sketch=1;" parent="1" vertex="1">
+                <mxCell id="3" value="&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 36px;&quot;&gt;LOGO&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillColor=#990000;fillStyle=dots;sketch=1;" parent="1" vertex="1">
                     <mxGeometry x="460" y="130" width="190" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="&lt;font face=&quot;Verdana&quot;&gt;Wyatt Wingate, {var}&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+                <mxCell id="4" value="&lt;font face=&quot;Lucida Console&quot;&gt;Wyatt Wingate, {var}&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
                     <mxGeometry x="130" y="180" width="260" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="Work" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontFamily=Verdana;" parent="1" vertex="1">
-                    <mxGeometry x="110" y="230" width="90" height="40" as="geometry"/>
+                <mxCell id="7" value="&lt;font face=&quot;Lucida Console&quot;&gt;Work&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontFamily=Verdana;" parent="1" vertex="1">
+                    <mxGeometry x="115" y="230" width="80" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="&lt;i style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;SCAD, 2023&lt;/font&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontFamily=Verdana;" parent="1" vertex="1">
                     <mxGeometry x="590" y="340" width="110" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;About&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Verdana;" parent="1" vertex="1">
-                    <mxGeometry x="210" y="230" width="90" height="40" as="geometry"/>
+                <mxCell id="9" value="&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 24px;&quot;&gt;About&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Verdana;" parent="1" vertex="1">
+                    <mxGeometry x="205" y="230" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Other&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Verdana;" parent="1" vertex="1">
-                    <mxGeometry x="310" y="230" width="90" height="40" as="geometry"/>
+                <mxCell id="10" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Other&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontFamily=Verdana;" parent="1" vertex="1">
+                    <mxGeometry x="305" y="230" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="420" width="640" height="890" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;size=0;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="580" width="20" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="745" width="280" height="10" as="geometry"/>
+                </mxCell>
+                <UserObject label="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Lucida Console&quot;&gt;Image is Link to component&lt;/font&gt;" treeRoot="1" id="53">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+                        <mxGeometry x="930" y="700" width="200" height="100" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="60" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="440" width="600" height="700" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 18px;&quot;&gt;folder name (lURL path)&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+                    <mxGeometry x="1050" y="840" width="210" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" edge="1" target="54" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1030" y="800" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="Page.js" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="1180" y="980" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;fontFamily=Lucida Console;fontSize=18;" edge="1" target="56" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1160" y="940" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="Page.js will be component with details and larger image, as already written up as 'Gundam.js', now will be page.js&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="1310" y="967" width="340" height="133" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="childLayout=tableLayout;recursiveResize=0;shadow=0;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="573" width="450" height="494" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="29">
+                    <mxGeometry width="450" height="164" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;h1&gt;Image&lt;/h1&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry width="150" height="164" as="geometry">
+                        <mxRectangle width="150" height="164" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="&lt;h1&gt;Image&lt;/h1&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry x="150" width="150" height="164" as="geometry">
+                        <mxRectangle width="150" height="164" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="&lt;h1&gt;Image&lt;/h1&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="30">
+                    <mxGeometry x="300" width="150" height="164" as="geometry">
+                        <mxRectangle width="150" height="164" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="29">
+                    <mxGeometry y="164" width="450" height="166" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;h1&gt;Image&lt;/h1&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="34">
+                    <mxGeometry width="150" height="166" as="geometry">
+                        <mxRectangle width="150" height="166" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="&lt;h1&gt;Image&lt;/h1&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="34">
+                    <mxGeometry x="150" width="150" height="166" as="geometry">
+                        <mxRectangle width="150" height="166" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="&lt;h1&gt;Image&lt;/h1&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="34">
+                    <mxGeometry x="300" width="150" height="166" as="geometry">
+                        <mxRectangle width="150" height="166" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;fillColor=none;strokeColor=inherit;" vertex="1" parent="29">
+                    <mxGeometry y="330" width="450" height="164" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;h1&gt;Image&lt;/h1&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="38">
+                    <mxGeometry width="150" height="164" as="geometry">
+                        <mxRectangle width="150" height="164" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" value="&lt;h1&gt;Image&lt;/h1&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="38">
+                    <mxGeometry x="150" width="150" height="164" as="geometry">
+                        <mxRectangle width="150" height="164" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="&lt;h1&gt;Image&lt;/h1&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=none;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="38">
+                    <mxGeometry x="300" width="150" height="164" as="geometry">
+                        <mxRectangle width="150" height="164" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Portfolio&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="245" y="480" width="310" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=36;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="1160" width="620" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Footer" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Lucida Console;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="1180" width="100" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

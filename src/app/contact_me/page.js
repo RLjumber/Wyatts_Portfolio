@@ -2,7 +2,7 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function OtherWorks() {
+export default function ContactMe() {
     return (
         <div className={styles.main_div}>
             <div className={styles.content}>
@@ -10,12 +10,15 @@ export default function OtherWorks() {
                 {/* <p>Could put something here?</p> */}
             </div>
             <div className={styles.second_div}>
-                <Image className={styles.image} src={"/BizCard.jpg"} width={500} height={800} alt="image not supported"/>
+                <video className={styles.logo_animation} autoPlay muted>
+                <source src="/Comp_1RGB.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+                </video>
                 <ul className={styles.list}>
                     <Link href="https://www.artstation.com/wyattwingate8" className={styles.link}><li>My Art Station</li></Link>
-                    <li>walkerwyatt1213@gmail.com</li>
-                    <li><em>wyatt_w27</em> or <em>rekragart</em></li>
-                    <li>(904) 309 1087</li>
+                    <li>Email: walkerwyatt1213@gmail.com</li>
+                    <li>Insta: <em>wyatt_w27</em> or <em>rekragart</em></li>
+                    <li>Phone: (904) 309 1087</li>
                 </ul>
             </div>
         </div>
