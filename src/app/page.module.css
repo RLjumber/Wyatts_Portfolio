@@ -3,7 +3,7 @@
   flex-direction: column;
   /* justify-content: space-evenly; */
   /* align-items: center; */
-  padding: 1rem;
+  /* padding: 1rem; */
   min-height: fit-content;
   /* max-height: fit-content; */
   /* border: solid red 1px; */
@@ -130,10 +130,46 @@
 
 /* Mobile */
 @media (max-width: 700px) {
+  .wyatt_and_links {
+    /* border: solid rgb(7, 255, 7) 2px; */
+    width: 85vw; 
+    display: flex;
+    /* justify-content: space-around; */
+    width:300px;
+    padding: 0;
+  }
+
+  .name {
+    /* border: solid violet 2px; */
+    height: 60vh;
+    /* width: 85vw; */
+    /* padding: 2rem; */
+    /* padding-right: 2rem; */
+    text-align: center;
+  }
+
+  .logo_animation {
+    /* border: solid red 1px; */
+  }
+
+  .landing {
+    display: flex;
+    flex-direction: column;
+    /* border: solid blue 1px; */
+    align-items: center;
+    
+  }
+
   .main {
     display: flex;
     flex-direction: column;
     height: fit-content;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding: 0;
+    margin: 0; */
+    /* border: solid greenyellow 2px; */
+    
   }
 
   .grid {
@@ -152,7 +188,8 @@
   }
 
   .center {
-    padding: 8rem 0 6rem;
+    /* padding-top: 5rem; */
+    width: 320px;
   }
 
   .name {

@@ -2,6 +2,17 @@ html {
   background-color: rgb(42, 10, 121);
 }
 
+@media (max-width:700px) {
+  html {
+  background-color: rgba(121, 10, 90, 0.558);
+  }
+
+  body {
+    margin: 0;
+    width: 339px;
+  }
+}
+
 /* :root {
   --max-width: 1100px;
   --border-radius: 12px;
