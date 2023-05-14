@@ -11,6 +11,7 @@ export default function ImageGrid() {
             <Link href="/cybernoir">
             <div className={styles.image_wrapper}>
                 <Image
+                className={styles.image}
                 src={"/CharcoalNoir.jpg"}
                 alt="CharcoalNoir"
                 width={435}
@@ -22,7 +23,7 @@ export default function ImageGrid() {
         <div className={styles.image_grid_item}>
             <Link href="/cybercity">
             <div className={styles.image_wrapper}>
-                <Image src={"/Cybercity.jpg"} alt="Cybercity" width={453}
+                <Image className={styles.image} src={"/Cybercity.jpg"} alt="Cybercity" width={453}
                 height={604
                 } />
             </div>
@@ -32,6 +33,7 @@ export default function ImageGrid() {
             <Link href="/cyberstreetcorner">
             <div className={styles.image_wrapper}>
                 <Image
+                className={styles.image}
                 src={"/CyberStreetCorner.jpg"}
                 alt="CyberStreetCorner"
                 width={805}
@@ -43,7 +45,7 @@ export default function ImageGrid() {
         <div className={styles.image_grid_item}>
             <Link href="/dualangel">
             <div className={styles.image_wrapper}>
-                <Image src={"/Dual_Angel.jpg"} alt="Dual Angel" width={453}
+                <Image className={styles.image} src={"/Dual_Angel.jpg"} alt="Dual Angel" width={453}
                 height={604} />
             </div>
             </Link>
@@ -52,6 +54,7 @@ export default function ImageGrid() {
             <Link href="/swordlord">
             <div className={styles.image_wrapper}>
                 <Image
+                className={styles.image}
                 src={"/Sword_Lord.jpg"}
                 alt="Hidetaka Miyazaki Inspiration"
                 width={453}
@@ -64,6 +67,7 @@ export default function ImageGrid() {
             <Link href="/bladerunner">
             <div className={styles.image_wrapper}>
                 <Image
+                className={styles.image}
                 src={"/BladeRunnerThumbnail.jpg"}
                 alt="BladeRunnerThumbnail.jpg"
                 width={644}
@@ -76,6 +80,7 @@ export default function ImageGrid() {
             <Link href="/poster">
             <div className={styles.image_wrapper}>
                 <Image
+                className={styles.image}
                 src={"/WyattWingate-Poster-Final.jpg"}
                 alt="Hidetaka Miyazaki Inspiration"
                 width={550}
@@ -87,7 +92,7 @@ export default function ImageGrid() {
         <div className={styles.image_grid_item}>
             <Link href="/gundam">
             <div className={styles.image_wrapper}>
-                <Image src={"/Gundam.jpg"} alt="Gundam" width={805}
+                <Image className={styles.image} src={"/Gundam.jpg"} alt="Gundam" width={805}
                 height={604} />
             </div>
             </Link>
