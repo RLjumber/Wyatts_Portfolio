@@ -9,8 +9,11 @@ html {
 
   body {
     margin: 0;
-    width: 339px;
+    /* width: 339px; */
+    /* width: 100%; */
   }
+
+ 
 }
 
 /* :root {
