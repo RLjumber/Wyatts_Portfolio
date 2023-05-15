@@ -7,9 +7,9 @@ export default function Type() {
   const [index, setIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [stringsToType, setStringsToType] = useState([
-    '...3D Modeler',
-    '...SCAD Student',
-    '...Multimedia Artist'
+    '..3D Modeler',
+    '..SCAD Student',
+    '..Multimedia Artist'
   ]);
   const [stringIndex, setStringIndex] = useState(0);
 
@@ -41,5 +41,5 @@ export default function Type() {
     return () => clearInterval(interval);
   }, [index, isDeleting, stringsToType, stringIndex]);
 
-  return <h3 className={styles.professions}>{text}<div className={styles.cursor}></div></h3>;
+  return <h3 className={styles.professions}>.{text}<div className={styles.cursor}></div></h3>;
 }
