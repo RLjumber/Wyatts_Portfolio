@@ -37,3 +37,25 @@
     color: white;
     text-shadow: 3px 3px 10px rgb(114, 210, 255);
 }
+
+@media (max-width: 700px) {
+  .main_div {
+      /* border: solid red 5px; */
+      max-width: 100%;
+  }
+  
+  .image {
+      width: 90vw;
+      height: auto;
+  }
+
+  .text {
+    margin: 1rem;
+  }
+
+  .text h1 {
+      font-size: 2rem;
+      margin-top: 0;
+      /* text-shadow: none; */
+  }
+}
