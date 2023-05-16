@@ -7,7 +7,7 @@ export default function Poster() {
     return (
         <div className={styles.main_div}>
           <div className={styles.text}>
-            <h1>{title}</h1>
+            <h1 className={styles.title}>{title}</h1>
           </div>
 
           <div className={styles.content}>

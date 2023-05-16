@@ -1,6 +1,6 @@
 import styles from './page.module.css';
 import Link from 'next/link'
-import Type from './type/Type';
+import Type from "./components/type/Type";
 import ImageGrid from "./ImageGrid";
 
 
