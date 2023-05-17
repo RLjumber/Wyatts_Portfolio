@@ -1,0 +1,30 @@
+.main_div {
+    /* border: solid red 1px; */
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro - Semi Bold';
+    src: url('../../../../public/SourceSansPro-SemiBold.ttf') format('truetype');
+  }
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
+    font-family: 'Source Sans Pro - Semi Bold';
+    font-size: 2rem;
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    color: rgb(66, 191, 254);
+}
