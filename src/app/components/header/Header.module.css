@@ -1,8 +1,11 @@
 .main_div {
-    /* border: solid red 1px; */
-    position: absolute;
+    position: sticky;
     top: 0;
     width: 100%;
+    border-bottom: solid rgba(255, 255, 255, 0.662) 1px;
+    height: 5rem;
+    margin: 0;
+    background-color: rgb(91, 6, 6);
 }
 
 @font-face {
@@ -18,6 +21,10 @@
     font-family: 'Source Sans Pro - Semi Bold';
     font-size: 2rem;
     list-style: none;
+    /* border: solid red 1px; */
+    margin: 0;
+    height: 100%;
+    align-items: center;
 }
 
 .nav a {
