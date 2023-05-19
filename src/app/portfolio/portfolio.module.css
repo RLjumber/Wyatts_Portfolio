@@ -1,7 +1,7 @@
 .main_div {
     background-color: rgba(0, 0, 0, 0.731);
     color: white;
-    min-height: 98vh;
+    /* min-height: 100vh; */
     border-radius: 5px;
     display: flex;
     justify-content: space-around;
@@ -23,6 +23,7 @@
     padding: 5rem;
     margin: 5rem;
     border-radius: 20px;
+    /* border: solid red 1px; */
 }
 
 .content h1 {
