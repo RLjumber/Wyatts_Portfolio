@@ -2,11 +2,13 @@ import styles from './page.module.css';
 import Link from 'next/link'
 import Type from "./components/type/Type";
 import ImageGrid from "./ImageGrid";
+import Header from './components/header/Header';
 
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Header />
       <div className={styles.landing}>
         <div className={styles.wyatt_and_links}>
             
@@ -15,7 +17,7 @@ export default function Home() {
               <Type />
             </div>
 
-            <div className={styles.grid}>
+            {/* <div className={styles.grid}>
               <Link href="/portfolio" legacyBehavior>
                 <a className={styles.card}>
                   <h2>
@@ -42,7 +44,7 @@ export default function Home() {
                   <p>Projects for fun</p>
                 </a>
               </Link>
-            </div>
+            </div> */}
 
           </div>
 
