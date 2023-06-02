@@ -9,13 +9,16 @@
   /* border: solid red 1px; */
   border-radius: 5px;
   box-shadow: 0px 0px 20px rgb(59, 118, 255);
-  background-color: rgb(255, 255, 255);
+  background: fixed;
+  background-image: url("/berserk-manga-kentaro-miura-dragon-slayer.webp");
 }
 
 .landing {
   display: inherit;
-  border: solid red 2px;
-  min-height: 90vh;
+  /* border: solid red 2px; */
+  margin-top: 10vh;
+  min-height: 60vh;
+  background-color: rgba(184, 0, 0, 0.457);
 }
 
 
@@ -28,20 +31,22 @@
   font-family: "SourceSansPro-SemiBold";
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  border: solid blue 2px;
-  padding-left: 1rem;
+  justify-content: space-around;
+  /* border: solid blue 2px; */
+  padding-left: 5rem;
+  margin-right: 0;
   width: 60vw;
   min-height: 50vh;
-  color: black;
+  color: rgb(255, 255, 255);
   /* text-shadow: 3px 3px 15px rgba(255, 0, 0, 0.692); */
 }
 
 .center video {
   max-width: 100%;
   height: auto;
+  margin: 5rem;
   /* padding: 1rem; */
-  border: solid blue 1px;
+  /* border: solid blue 1px; */
 }
 
 .grid {
@@ -53,8 +58,8 @@
 }
 
 .name {
-  font-size: 40px;
-  border: solid blue 1px;
+  font-size: 60px;
+  /* border: solid blue 1px; */
 }
 
 .card {
@@ -108,6 +113,36 @@
   width: 840px;
   height: 540px;
   /* border: solid red 1px; */
+}
+
+.wyatt_picture {
+  position: relative;
+  /* object-fit: cover; */
+  border: solid red 1px;
+  min-width: 500px;
+  max-width: 500px;
+  min-height: 650px;
+  max-height: 650px;
+}
+
+.wyatt_picture Image {
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.wyatt_about_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.about_me_section {
+  display: flex;
+  width: 50vw;
+  font-family: 'SourceSansPro-SemiBold';
+  font-size: 25px;
+  padding: 3rem;
 }
 
 /* Enable hover only on non-touch devices */
