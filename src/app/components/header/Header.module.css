@@ -1,11 +1,18 @@
 .main_div {
+    font-family: 'Source Sans Pro - Semi Bold';
+    background-color: rgba(126, 126, 126, 0.226);
     position: sticky;
+    z-index: 1;
     top: 0;
     width: 100%;
-    border-bottom: solid rgba(255, 255, 255, 0.662) 1px;
-    height: 5rem;
+    /* border-bottom: solid black 1px; */
+    box-shadow: 0px 5px 20px rgb(53, 53, 53);
+    height: auto;
     margin: 0;
-    background-color: rgb(91, 6, 6);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
 }
 
 @font-face {
@@ -13,25 +20,59 @@
     src: url('../../../../public/SourceSansPro-SemiBold.ttf') format('truetype');
   }
 
+.home_icon {
+    /* border: solid red 1px; */
+    /* padding: 1rem; */
+    width: 3rem;
+    height: 3rem;
+    transition: color 500ms;
+}
+
+.home_icon:hover {
+    color: rgb(229, 0, 0);
+    
+}
+
 .nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     padding: 0;
     font-family: 'Source Sans Pro - Semi Bold';
-    font-size: 2rem;
+    font-size: 1.5rem;
     list-style: none;
     /* border: solid red 1px; */
-    margin: 0;
+    /* margin: 0; */
+    margin-left: 3rem;
     height: 100%;
     align-items: center;
 }
 
 .nav a {
     text-decoration: none;
-    color: white;
+    color: black;
+    /* border: solid black 1px; */
+    margin: 3rem;
+    padding: .5rem;
+    border-radius: 2px;
+    /* background-color: rgba(149, 0, 0, 0.696); */
+    transition: border-radius, background-color, 500ms;
 }
 
 .nav a:hover {
-    color: rgb(66, 191, 254);
+    /* color: rgb(66, 191, 254); */
+    background-color: rgba(220, 0, 0, 0.646);
+    border-radius: 30px;
+    
+}
+
+.scad {
+    /* border: solid red 1px; */
+    letter-spacing: 10px;
+    align-self: center;
+    margin: 1rem;
+    font-size: 2rem;
+    padding: .5rem;
+    border-radius: 2px;
+    color: white;
+    background-color: rgba(216, 0, 0, 0.868);
 }

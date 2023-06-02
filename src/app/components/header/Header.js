@@ -2,6 +2,8 @@
 import { usePathname } from "next/navigation";
 import styles from "./Header.module.css";
 import Link from "next/link";
+import Image from "next/image";
+import { FaHome } from "react-icons/fa"
 
 
 export default function Header() {
@@ -11,7 +13,9 @@ export default function Header() {
 
     return (
         <div className={styles.main_div}>
+
             <ul className={styles.nav}>
+                <FaHome className={styles.home_icon}/>
                 {path === "/" ? 
                     <>
                     <li><Link href="/portfolio">Portfolio</Link></li>
@@ -39,6 +43,9 @@ export default function Header() {
                         <li><Link href="/about">About</Link></li>
                     </> : null}
             </ul>
+        <div className={styles.scad}>
+            SCAD
+        </div>
         </div>
     )
 }
