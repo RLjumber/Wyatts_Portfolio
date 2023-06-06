@@ -4,6 +4,7 @@ import Type from "./components/type/Type";
 import ImageGrid from "./ImageGrid";
 import Header from './components/header/Header';
 import About from './about/page';
+import Footer from "./components/footer/Footer";
 import Image from 'next/image';
 
 
@@ -37,6 +38,7 @@ export default function Home() {
             </div>
             <p>Hi I’m Wyatt Wingate, a 3D technical animation student at SCAD with interest in animation and modeling for video games and movies, and wanting to specialize in hard surface modeling and design. In my free time I play video games, build and paint scale models from model tanks, to Warhammer and DND models and I enjoy spending time with friends and family. My art journey began with ceramics in high school through all four years ending in AP ceramics and winning the art award for my school, and found a way to merge my passions of gaming and 3D modeling by discovering blender and zbrush, and enrolled into school shortly after.</p>
             </div>
+            <Footer />
         </div>
     </main>
   )
