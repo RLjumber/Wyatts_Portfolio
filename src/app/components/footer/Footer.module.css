@@ -1,40 +1,77 @@
 @font-face {
     font-family: 'Source Sans Pro - Semi Bold';
-    src: url('/public/SourceSansPro-SemiBold.ttf') format('truetype');
+    src: url('../../../../public/SourceSansPro-SemiBold.ttf') format('truetype');
   }
 
 @font-face {
     font-family: 'SourceSansPro-Light';
-    src: url('/public/SourceSansPro-Light.ttf') format('truetype');
+    src: url('../../../../public/SourceSansPro-Light.ttf') format('truetype');
   }
 
-.footer_main {
-    display: flex;
-    background: linear-gradient(#ffffff00,#210202);
-    width: 100%;
+  .main {
+    margin-top: 10rem;
+    padding: 5rem;
+    background: linear-gradient(#ffffff00, #210202);
     height: 40rem;
-    margin-top: 5rem;
-    justify-content: space-between;
-    color: white;
-}
-
-.list_box {
+    /* border: solid blue 2px; */
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .contact {
+    font-family: 'Source Sans Pro - Semi Bold';
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact h1 {
+    font-size: 5rem;
+  }
+
+  .icons {
+    font-size: 5rem;
+    /* padding: 5rem; */
+  }
+
+  .icons svg {
+    margin: 5rem;
+  }
+
+  .footer_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; /* This is what was missing to align to bottom */
+    width: 100%;
+    margin-top: 5rem;
+    color: white;
+  }
+
+.list_box {
+    display: inline-block;
+    align-items: flex-end;
+    /* position: absolute;
+    bottom: 1; */
+    /* display: flex; */
+    /* flex-direction: column; */
     /* justify-items: left; */
-    border: solid red 1px;
+    /* border: solid red 1px; */
     text-align: left;
+    height: 10rem;
     /* padding: 2rem; */
 }
 
 .list_box h3 {
-    border: solid red 1px;
+    /* border: solid red 1px; */
     font-family: 'Source Sans Pro - Semi Bold';
 }
 
 .list_box li {
     width: 100%;
-    border: solid red 1px;
+    /* border: solid red 1px; */
+    align-items: flex-start;
     font-family: 'SourceSansPro-Light';
     list-style: none;
 }
