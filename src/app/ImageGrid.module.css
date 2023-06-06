@@ -60,10 +60,6 @@
     align-items: center;
   }
 
-  .image_grid_item:hover .image_hover_title {
-    
-  }
-
   .image_grid_item:hover .image_blur {
     opacity: 1;
     backdrop-filter: blur(5px)
@@ -83,10 +79,10 @@
 
   .grid_main {
     /* border: solid rgb(234, 0, 255) 1px; */
+    margin: 0;
     margin-top: 15rem;
-    margin: 5rem;
     margin-bottom: 15rem;
-    background-color: rgba(20, 30, 37, 0.961);
+    background-color: rgba(0, 0, 0, 0.719);
     /* border-top: solid rgb(0, 0, 0) 2px;
     border-bottom: solid rgb(0, 0, 0) 2px; */
   }

@@ -11,6 +11,7 @@
   box-shadow: 0px 0px 20px rgb(59, 118, 255);
   background: fixed;
   background-image: url("/berserk-manga-kentaro-miura-dragon-slayer.webp");
+  /* background-image: cover; */
 }
 
 .landing {
@@ -118,7 +119,7 @@
 .wyatt_picture {
   position: relative;
   /* object-fit: cover; */
-  border: solid red 1px;
+  
   min-width: 500px;
   max-width: 500px;
   min-height: 650px;
@@ -131,6 +132,7 @@
 }
 
 .wyatt_about_container {
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -138,11 +140,22 @@
 }
 
 .about_me_section {
+  border: solid red 1px;
+  background-color: rgba(0, 0, 0, 0.605);
+  color: white;
+  backdrop-filter: blur(5px);
   display: flex;
-  width: 50vw;
+  width: 60vw;
+  
   font-family: 'SourceSansPro-SemiBold';
   font-size: 25px;
   padding: 3rem;
+  height: min-content;
+}
+
+.about_me_section p {
+  display: flex;
+  max-height: 600px;
 }
 
 /* Enable hover only on non-touch devices */
