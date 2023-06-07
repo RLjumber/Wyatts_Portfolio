@@ -15,7 +15,7 @@ export default function Header() {
         <div className={styles.main_div}>
 
             <ul className={styles.nav}>
-                <FaHome className={styles.home_icon}/>
+                <Link href="/"><FaHome className={styles.home_icon}/></Link>
                 {path === "/" ? 
                     <>
                     <li><Link href="/portfolio">Portfolio</Link></li>

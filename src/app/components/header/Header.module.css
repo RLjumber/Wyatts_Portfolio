@@ -29,8 +29,7 @@
 }
 
 .home_icon:hover {
-    color: rgb(229, 0, 0);
-    
+    color: rgb(255, 255, 255);
 }
 
 .nav {
@@ -51,18 +50,19 @@
     text-decoration: none;
     color: black;
     /* border: solid black 1px; */
-    margin: 3rem;
+    /* margin: 1rem; */
+    margin-inline-end: 3rem;
     padding: .5rem;
     border-radius: 2px;
     /* background-color: rgba(149, 0, 0, 0.696); */
-    transition: border-radius, background-color, 500ms;
+    transition: border-radius, background-color, color, 500ms;
 }
 
 .nav a:hover {
     /* color: rgb(66, 191, 254); */
     background-color: rgb(255, 67, 67);
     border-radius: 30px;
-    
+    color: white;
 }
 
 .scad {
