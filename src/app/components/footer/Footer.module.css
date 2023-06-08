@@ -75,3 +75,13 @@
     font-family: 'SourceSansPro-Light';
     list-style: none;
 }
+
+@media (max-width: 700px) {
+    .main {
+        padding: 1rem;
+    }
+
+    .contact {
+        font-size: 1rem;
+    }
+}

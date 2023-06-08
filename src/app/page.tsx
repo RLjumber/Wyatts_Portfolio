@@ -33,11 +33,14 @@ export default function Home() {
         <div className={styles.wyatt_about_container}>
           <div className={styles.about_me_section}>
             <div className={styles.wyatt_picture}>
-              <Image src={"/wyatt_profile.jpg"} alt='good looking dude' fill/>
+              <Image  src={"/wyatt_profile.jpg"} 
+                      alt='good looking dude'
+                      width={453}
+                      height={604} />
             </div>
-            <div>
-            <h1>Meet the Artist!</h1>
-            <p>Hi I’m Wyatt Wingate, a 3D technical animation student at SCAD with interest in animation and modeling for video games and movies, and wanting to specialize in hard surface modeling and design. In my free time I play video games, build and paint scale models from model tanks, to Warhammer and DND models and I enjoy spending time with friends and family. My art journey began with ceramics in high school through all four years ending in AP ceramics and winning the art award for my school, and found a way to merge my passions of gaming and 3D modeling by discovering blender and zbrush, and enrolled into school shortly after.</p>
+            <div className={styles.about_me_text}>
+              <h1>Meet the Artist!</h1>
+              <p>Hi I’m Wyatt Wingate, a 3D technical animation student at SCAD with interest in animation and modeling for video games and movies, and wanting to specialize in hard surface modeling and design. In my free time I play video games, build and paint scale models from model tanks, to Warhammer and DND models and I enjoy spending time with friends and family. My art journey began with ceramics in high school through all four years ending in AP ceramics and winning the art award for my school, and found a way to merge my passions of gaming and 3D modeling by discovering blender and zbrush, and enrolled into school shortly after.</p>
             </div>
             </div>
         </div>
