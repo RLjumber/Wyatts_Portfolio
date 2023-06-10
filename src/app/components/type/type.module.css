@@ -35,9 +35,10 @@
     }
 
     .professions {
+        font-size: 35px;
         color: rgb(255, 255, 255);
         margin: 0;
-        text-shadow: 2px 1px 0px blue;
+        /* text-shadow: 2px 1px 0px blue; */
     }
     
 }
