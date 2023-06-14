@@ -7,11 +7,12 @@ import DualAngel from "../dualangel/page";
 import CyberNoir from "../cybernoir/page";
 import CyberCity from "../cybercity/page";
 import PortfolioLanding from "./PortfolioLanding";
+import styles from "./main.module.css";
 
 
 export default function Portfolio() {
     return (
-        <>
+        <div className={styles.background}>
             <PortfolioLanding />
             <BladeRunner />
             <Draw1 />
@@ -21,6 +22,6 @@ export default function Portfolio() {
             <DualAngel />
             <CyberNoir />
             <CyberCity />
-        </>
+        </div>
     )
 }

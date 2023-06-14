@@ -110,7 +110,7 @@ export default function ImageGrid() {
                                 />
                             <div className={styles.image_blur}> 
                                 <div className={styles.image_hover_title}>Unit 07</div>
-                                <div></div>
+                                
                             </div>  
                     </Link>
                 </div>

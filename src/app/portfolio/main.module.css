@@ -1,0 +1,6 @@
+.background {
+  background-color: #e5e5f7;
+  /* opacity: 0.8; */
+  background-image: radial-gradient(#0a0c29 1px, #5e5e75 0.5px);
+  background-size: 20px 20px;
+}
