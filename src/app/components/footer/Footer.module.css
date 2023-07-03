@@ -74,11 +74,11 @@
         padding: 1rem;
         /* flex-direction: row; */
         height: auto;
-        border: solid red 1px;
+        /* border: solid red 1px; */
     }
 
     .footer_main {
-      border: solid red 1px;
+      /* border: solid red 1px; */
       margin: 0;
       font-size: .75rem;
     }

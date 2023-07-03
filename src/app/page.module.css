@@ -136,6 +136,10 @@
   /* min-height: 500px;
    */
    height: fit-content;
+   justify-content: space-evenly;
+   margin: 1rem;
+   padding: 2rem;
+   text-align: center;
 }
 
 .about_me_text {
@@ -148,7 +152,7 @@
 .about_me_section p {
   /* display: flex; */
   align-items: center;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 /* Enable hover only on non-touch devices */
@@ -180,16 +184,22 @@
 
   .wyatt_picture img {
     max-width: 300px;
-    min-width: 300px;
+    /* min-width: 300px; */
     max-height: 400px;
   }
 
   .about_me_section {
+    padding: 0;
+    padding-top: 2rem;
+    margin: 0;
     flex-direction: column;
     width: 100%;
-    
     text-align: center;
     /* height: 75rem; */
+  }
+
+  .about_me_text {
+    margin-top: 1rem;
   }
 
   .about_me_section p {
@@ -198,7 +208,7 @@
     /* max-width: 90vw; */
     padding: 1rem;
     margin: 1rem;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
   }
 
   .wyatt_and_links {
