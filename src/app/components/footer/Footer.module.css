@@ -52,15 +52,8 @@
 .list_box {
     display: inline-block;
     align-items: flex-end;
-    /* position: absolute;
-    bottom: 1; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-items: left; */
-    /* border: solid red 1px; */
     text-align: left;
     height: 10rem;
-    /* padding: 2rem; */
 }
 
 .list_box h3 {
@@ -79,9 +72,34 @@
 @media (max-width: 700px) {
     .main {
         padding: 1rem;
+        /* flex-direction: row; */
+        height: auto;
+        border: solid red 1px;
     }
 
-    .contact {
-        font-size: 1rem;
+    .footer_main {
+      border: solid red 1px;
+      margin: 0;
+      font-size: .75rem;
+    }
+
+    .list_box {
+      text-align: center;
+      max-height: 10rem;
+    }
+
+    .list_box ul {
+      list-style: bullets;
+      padding: 0;
+    }
+
+    .contact h1 {
+        font-size: 3rem;
+    }
+
+    .icons svg{
+      flex-direction: row;
+      font-size: 3rem;
+      margin: 1rem;
     }
 }

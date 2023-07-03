@@ -122,14 +122,6 @@
 }
 
 
-.wyatt_about_container {
-  
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* width: 100%; */
-}
-
 .about_me_section {
   border: solid rgb(0, 0, 0) 1px;
   border-radius: 10px;
@@ -140,24 +132,23 @@
   /* width: 100%; */
   font-family: 'SourceSansPro-SemiBold';
   font-size: 25px;
-  padding: 3rem;
-  min-height: 500px;
-  max-height: fit-content;
+  /* padding: 3rem; */
+  /* min-height: 500px;
+   */
+   height: fit-content;
 }
 
 .about_me_text {
-  max-height: 600px;
   max-width: 600px;
-  padding-left: 3rem;
 }
 
 .about_me_text h1 {
   margin: 0;
 }
 .about_me_section p {
-  display: flex;
+  /* display: flex; */
   align-items: center;
-  /* overflow-y: hidden; */
+  overflow-y: scroll;
 }
 
 /* Enable hover only on non-touch devices */
