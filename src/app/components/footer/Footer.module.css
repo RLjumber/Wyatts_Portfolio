@@ -31,14 +31,24 @@
     font-size: 5rem;
   }
 
-  .icons {
-    font-size: 5rem;
-    /* padding: 5rem; */
-  }
+/* Icons for contact information and art station */
+      .icons {
+        font-size: 5rem;
+        /* padding: 5rem; */
+      }
 
-  .icons svg {
-    margin: 5rem;
-  }
+      .icons svg {
+        color: white;
+        margin: 5rem;
+        transition: color, 750ms;
+      }
+
+
+      .icons svg:hover {
+        transform: translate(2px, 2px);
+        color: rgb(0, 115, 255);
+      }
+/* end icons */
 
   .footer_main {
     display: flex;
