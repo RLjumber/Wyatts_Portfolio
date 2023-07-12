@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'SourceSansPro-SemiBold';
-  src: url('../../public/SourceSansPro-SemiBold.ttf') format('truetype');
+  src: url('../../../../public/SourceSansPro-SemiBold.ttf') format('truetype');
 }
 
 .image_grid {
@@ -8,7 +8,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 1rem;
-    border-top: solid rgb(255, 255, 255) 2px;
+    /* border-top: solid rgb(255, 255, 255) 2px; */
     padding: 1rem;
     align-items: center;
   }
@@ -20,12 +20,13 @@
     margin: 3rem;
     /* overflow: hidden; */
     /* border: solid rgb(255, 0, 0) 2px; */
-    border-radius: 25px;
+    border-radius: 45px;
     width: 25rem;
     height: 25rem;
     transition: all 500ms;
     text-align: center;
-    
+    border: solid black 5px;
+    border-width: 1rem;
   }
 
   .image {
@@ -77,6 +78,7 @@
   }
 
   .image_grid_title {
+    /* justify-content: space-evenly; */
     color: white;
     border-bottom: solid rgb(255, 255, 255) 2px;
     margin: 5rem;
