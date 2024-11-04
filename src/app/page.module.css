@@ -1,17 +1,10 @@
 .main {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-evenly; */
-  /* align-items: center; */
-  /* padding: 1rem; */
   min-height: fit-content;
-  /* max-height: fit-content; */
-  /* border: solid red 1px; */
-  border-radius: 5px;
   box-shadow: 0px 0px 20px rgb(59, 118, 255);
   background: fixed;
-  background-image: url("/berserk-manga-kentaro-miura-dragon-slayer.webp");
-  /* background-image: cover; */
+  background-color: rgb(16, 16, 20);
 }
 
 .landing {
@@ -19,7 +12,7 @@
   /* border: solid red 2px; */
   margin-top: 10vh;
   min-height: 60vh;
-  background-color: rgba(184, 0, 0, 0.457);
+  /* background-color: rgb(184, 0, 0, 0.457); */
 }
 
 

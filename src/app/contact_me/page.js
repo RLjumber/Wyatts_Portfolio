@@ -1,11 +1,11 @@
 import styles from "./page.module.css";
 import Link from "next/link";
-import Header from "../components/header/Header";
+
 
 export default function ContactMe() {
     return (
         <>
-            <Header />
+        
             <div className={styles.main_div}>
                 <div className={styles.content}>
                     <h1>Contact Me</h1>
@@ -18,7 +18,7 @@ export default function ContactMe() {
                     </video>
                     <ul className={styles.list}>
                         <Link href="https://www.artstation.com/wyattwingate8" className={styles.link}><li>My Art Station</li></Link>
-                        <li>Email: walkerwyatt1213@gmail.com</li>
+                        <li>Email: wwinga20@student.scad.edu</li>
                         <li>Insta: <em>wyatt_w27</em> or <em>rekragart</em></li>
                         <li>Phone: (904) 309 1087</li>
                     </ul>

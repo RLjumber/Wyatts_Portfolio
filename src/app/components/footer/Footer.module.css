@@ -9,9 +9,9 @@
   }
 
   .main {
-    margin-top: 10rem;
     padding: 5rem;
-    background: linear-gradient(#ffffff00, #210202);
+    background-color: rgb(16, 16, 20);
+    /* background: linear-gradient(#351d1d00, #210202); */
     height: 40rem;
     /* border: solid blue 2px; */
     display: flex;
@@ -40,13 +40,13 @@
       .icons svg {
         color: white;
         margin: 5rem;
-        transition: color, 750ms;
+        transition: color, 200ms;
       }
 
 
       .icons svg:hover {
         transform: translate(2px, 2px);
-        color: rgb(0, 115, 255);
+        color: rgb(87, 5, 5);
       }
 /* end icons */
 

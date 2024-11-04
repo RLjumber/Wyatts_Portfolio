@@ -4,8 +4,7 @@ import Header from "../components/header/Header";
 
 export default function About() {
     return (
-        <>
-            <Header />
+        <>          
             <div className={styles.main_div}>
                 <div className={styles.content}>
                     <h1>About Me</h1>

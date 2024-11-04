@@ -13,9 +13,8 @@ export default function Header() {
 
     return (
         <div className={styles.main_div}>
-
             <ul className={styles.nav}>
-                <Link href="/"><FaHome className={styles.home_icon}/></Link>
+                <Link href="/"><FaHome className={styles.home_icon}/></Link> 
                 {path === "/" ? 
                     <>
                     <li><Link href="/portfolio">Portfolio</Link></li>
@@ -41,7 +40,9 @@ export default function Header() {
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="/portfolio">Portfolio</Link></li>
                         <li><Link href="/about">About</Link></li>
-                    </> : null}
+                    </> : null} 
+
+                
             </ul>
         <div className={styles.scad}>
             SCAD
