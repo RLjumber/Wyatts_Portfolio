@@ -1,8 +1,8 @@
 .main_div {
-    background-color: black;
+    background-color: rgb(16, 16, 20);
     color: white;
     min-height: 98vh;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -29,8 +29,8 @@
     padding-bottom: 0;
     margin: 5rem;
     margin-top: 2rem;
-    /* background-color: rgba(220, 20, 60, 0.162); */
-    border-radius: 20px;
+    /* background-color: rgb(16, 16, 20);  */
+    border-radius: 5px;
     margin-bottom: 0;
 }
 

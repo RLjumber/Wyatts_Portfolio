@@ -6,7 +6,114 @@ import styles from "./ImageGrid.module.css";
 export default function ImageGrid() {
     return (
         <div className={styles.grid_main}>
-            <h1 className={styles.image_grid_title}>Projects</h1>
+            <h1 className={styles.image_grid_title}>3-D Projects</h1>
+            <div className={styles.image_grid}>
+                <div className={styles.image_grid_item}>
+                    <Link href="/batman">
+                            <Image
+                                className={styles.image}
+                                src={"/BatmanFullBodyTurnaround.jpg"}
+                                alt="BatmanFullBodyTurnaround.jpg"
+                                fill
+                            />
+                            <div className={styles.image_blur}> 
+                                <div className={styles.image_hover_title}>Batman 3-D Render</div>
+                            </div>
+                    </Link>
+                </div>
+                <div className={styles.image_grid_item}>
+                    <Link href="/aboutanexplorer">
+                            <Image
+                                className={styles.image}
+                                src={"/AboutAnExplorer.jpg"}
+                                alt="AboutAnExplorer.jpg"
+                                fill
+                            />
+                            <div className={styles.image_blur}> 
+                                <div className={styles.image_hover_title}>About an Explorer 3-D Render</div>
+                            </div>
+                    </Link>
+                </div>
+                <div className={styles.image_grid_item}>
+                    <Link href="/tools">
+                            <Image
+                                className={styles.image}
+                                src={"/tools_tools.jpg"}
+                                alt="tools.jpg"
+                                fill
+                            />
+                            <div className={styles.image_blur}> 
+                                <div className={styles.image_hover_title}>About an Explorer, Collection</div>
+                            </div>
+                    </Link>
+                </div>
+                <div className={styles.image_grid_item}>
+                    <Link href="/crossbow">
+                            <Image
+                                className={styles.image}
+                                src={"/crossbow.jpg"}
+                                alt="tools.jpg"
+                                fill
+                            />
+                            <div className={styles.image_blur}> 
+                                <div className={styles.image_hover_title}>Crossbow 3-D Render</div>
+                            </div>
+                    </Link>
+                </div>
+                <div className={styles.image_grid_item}>
+                    <Link href="/mushroomman">
+                            <Image
+                                className={styles.image}
+                                src={"/MushroomManSnapShotTurnaround.jpg"}
+                                alt="MushroomManSnapShotTurnaround.jpg"
+                                fill
+                            />
+                            <div className={styles.image_blur}> 
+                                <div className={styles.image_hover_title}>Mushroom Man Render</div>
+                            </div>
+                    </Link>
+                </div>
+                <div className={styles.image_grid_item}>
+                    <Link href="/groupvideo">
+                            <Image
+                                className={styles.image}
+                                src={"/groupvideothumbnail.jpg"}
+                                alt="BladeRunnerThumbnail.jpg"
+                                fill
+                            />
+                            <div className={styles.image_blur}> 
+                                <div className={styles.image_hover_title}>Monster Rig for Group Video</div>
+                            </div>
+                    </Link>
+                </div>
+                <div className={styles.image_grid_item}>
+                    <Link href="/bladerunner">
+                            <Image
+                                className={styles.image}
+                                src={"/BladeRunnerThumbnail.jpg"}
+                                alt="BladeRunnerThumbnail.jpg"
+                                fill
+                            />
+                            <div className={styles.image_blur}> 
+                                <div className={styles.image_hover_title}>Bladerunner Animation</div>
+                            </div>
+                    </Link>
+                </div>
+                <div className={styles.image_grid_item}>
+                    <Link href="/angelturnaround">
+                            <Image
+                                className={styles.image}
+                                src={"/AngelTurnaround.jpg"}
+                                alt="AngelTurnaround.jpg"
+                                fill
+                            />
+                            <div className={styles.image_blur}> 
+                                <div className={styles.image_hover_title}>Angel 3-D Render</div>
+                            </div>
+                    </Link>
+                </div>
+            </div>
+            <h1 className={styles.image_grid_title}>2-D Projects</h1>
             <div className={styles.image_grid}>
                 <div className={styles.image_grid_item}>
                     <Link href="/cybernoir">
@@ -71,19 +178,6 @@ export default function ImageGrid() {
                             />
                             <div className={styles.image_blur}> 
                                 <div className={styles.image_hover_title}>Sword Lord</div>
-                            </div>
-                    </Link>
-                </div>
-                <div className={styles.image_grid_item}>
-                    <Link href="/bladerunner">
-                            <Image
-                                className={styles.image}
-                                src={"/BladeRunnerThumbnail.jpg"}
-                                alt="BladeRunnerThumbnail.jpg"
-                                fill
-                            />
-                            <div className={styles.image_blur}> 
-                                <div className={styles.image_hover_title}>Bladerunner Animation</div>
                             </div>
                     </Link>
                 </div>

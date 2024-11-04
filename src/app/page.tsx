@@ -11,17 +11,13 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Header />
       <div className={styles.landing}>
         <div className={styles.wyatt_and_links}>
-            
             <div className={styles.name}>
               <h1 className='name'>Wyatt Wingate</h1>
               <Type />
             </div>
-
           </div>
-
           <div className={styles.center}>
             <video className={styles.logo_animation} autoPlay muted>
               <source src="/Comp_1RGB.mp4" type="video/mp4" />
@@ -30,7 +26,6 @@ export default function Home() {
           </div>
         </div>
         <ImageGrid />
-        
           <div className={styles.about_me_section}>
               <div className={styles.wyatt_picture}>
                 <Image  src={"/wyatt_profile.jpg"} 
@@ -44,7 +39,7 @@ export default function Home() {
               </div>
           </div>
         
-        <Footer />
+        
     </main>
   )
 }

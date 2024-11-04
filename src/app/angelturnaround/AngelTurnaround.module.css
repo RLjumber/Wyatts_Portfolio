@@ -1,0 +1,77 @@
+.main_div {
+    height: fit-content;
+    display: flex;
+    padding: 2rem;
+    background-color: rgb(16, 16, 20); 
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+    @font-face {
+      font-family: 'SourceSansPro-Light';
+      src: url('../../../public/SourceSansPro-Light.ttf') format('truetype');
+    }
+    
+    @font-face {
+      font-family: 'SourceSansPro-SemiBold';
+      src: url('../../../public/SourceSansPro-SemiBold.ttf') format('truetype');
+    }
+  
+  .image {
+      margin: 5rem;
+      margin-top: 0;
+      width: 80vw;
+      height: auto;
+      box-shadow: 0 0 100px rgba(255, 0, 0, 0.658);
+  }
+  
+  .title {
+      /* border: solid red 1px; */
+      margin: 5rem;
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      /* border-bottom: solid white 1px; */
+      text-align: center;
+      /* padding: 5rem; */
+      min-width: 40vw;
+      max-width: 80vw;
+      font-size: 5rem;
+      font-family: "SourceSansPro-SemiBold";
+      color: white;
+      text-shadow: 3px 3px 15px rgba(0, 170, 255, 0.692);
+  }
+  
+  .description {
+      color: white;
+      font-size: 25px;
+      max-width: 30vw;
+      font-family: 'SourceSansPro-Light';
+  }
+  
+  @media (max-width: 700px) {
+    .main_div {
+        /* border: solid red 5px; */
+        max-width: 100%;
+    }
+  
+    .title {
+      margin-top: 1rem;
+      width: 90%;
+    }
+    
+    .image {
+        width: 90vw;
+        margin-bottom: 1rem;
+    }
+  
+    .main_div h1 {
+        font-size: 2rem;
+        /* text-shadow: none; */
+    }
+  
+    .description {
+      min-width: 80vw;
+    }
+  }
+  

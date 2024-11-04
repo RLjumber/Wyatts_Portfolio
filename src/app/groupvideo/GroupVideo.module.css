@@ -1,0 +1,54 @@
+.main_div {
+    height: fit-content;
+    display: flex;
+    padding: 2rem;
+    background-color: rgb(16, 16, 20); 
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+@font-face {
+    font-family: 'SourceSansPro-SemiBold';
+    src: url('../../../public/SourceSansPro-SemiBold.ttf') format('truetype');
+  }
+
+.actual_video {
+    /* border: solid red 5px; */
+    /* width: 1200px; */
+    
+    box-shadow: 0px 0px 100px rgba(0, 229, 255, 0.427);
+    margin: 5rem;
+    margin-top: 0;
+}
+
+.title {
+    /* border: solid red 1px; */
+    margin: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    /* padding: 5rem; */
+    min-width: 40vw;
+    max-width: 80vw;
+    font-family: "SourceSansPro-SemiBold";
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 15px rgba(255, 0, 0, 0.692);
+}
+
+@media (max-width: 700px) {
+    .main_div {
+        /* border: solid red 5px; */
+        max-width: 100%;
+    }
+    
+    .main_div video {
+        width: 90vw;
+    }
+
+    .main_div h1 {
+        font-size: 3rem;
+        /* text-shadow: none; */
+    }
+}
